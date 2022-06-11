@@ -16,8 +16,6 @@ class AuthCubit extends Cubit<AuthState> {
 
   static AuthCubit get(context) => BlocProvider.of(context);
 
-  final auth = FirebaseAuth.instance;
-
   late UserModel currentUser;
 
   final _authApi = AuthApi();
