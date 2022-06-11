@@ -37,8 +37,8 @@
 
 ## Getting Started
 
-*Create a new firebase project and setup firestore, add dummy user data
+*Create a new firebase project and setup firestore
 
 *Copy FCM authorization key and past it on fcmKey var in constants.dart file
 
-*Create agora new project and general token, channel name for test purpose and past them in (agoraAppId-agoraTestChannelName-agoraTestToken) vars in constants.dart file
+*Create agora new project and general token, channel name for test purpose and past them with your appId on (agoraAppId-agoraTestChannelName-agoraTestToken) vars in constants.dart file
