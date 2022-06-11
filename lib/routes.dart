@@ -5,7 +5,7 @@ import 'package:youtube/data/models/call_model.dart';
 import 'package:youtube/presentaion/cubit/call/call_cubit.dart';
 import 'package:youtube/presentaion/screens/call_screen.dart';
 import 'package:youtube/presentaion/screens/home_screen.dart';
-import 'package:youtube/presentaion/screens/login_screen.dart';
+import 'package:youtube/presentaion/screens/auth_screen.dart';
 import 'package:youtube/presentaion/screens/testScerrb.dart';
 import 'package:youtube/shared/constats.dart';
 
@@ -17,7 +17,7 @@ class AppRouter {
       case loginScreen:
         return MaterialPageRoute(
           builder: (_) {
-            return LoginScreen();
+            return AuthScreen();
           },
         );
       case homeScreen:

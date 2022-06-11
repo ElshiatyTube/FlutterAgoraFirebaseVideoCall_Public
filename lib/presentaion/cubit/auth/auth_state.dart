@@ -2,6 +2,20 @@ abstract class AuthState {}
 
 class AuthInitial extends AuthState {}
 
+
+class LoadingRegisterState extends AuthState {}
+class SuccessRegisterState extends AuthState {
+  final String uId;
+
+  SuccessRegisterState(this.uId);
+}
+class ErrorRegisterState extends AuthState {
+  final String errorMessage;
+
+  ErrorRegisterState(this.errorMessage);
+}
+
+
 class LoadingLoginState extends AuthState {}
 class SuccessLoginState extends AuthState {
   final String uId;
