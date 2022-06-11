@@ -6,10 +6,7 @@ import 'package:youtube/presentaion/cubit/call/call_cubit.dart';
 import 'package:youtube/presentaion/screens/call_screen.dart';
 import 'package:youtube/presentaion/screens/home_screen.dart';
 import 'package:youtube/presentaion/screens/auth_screen.dart';
-import 'package:youtube/presentaion/screens/testScerrb.dart';
 import 'package:youtube/shared/constats.dart';
-
-
 
 class AppRouter {
   Route? onGenerateRoute(RouteSettings routeSettings) {
@@ -17,7 +14,7 @@ class AppRouter {
       case loginScreen:
         return MaterialPageRoute(
           builder: (_) {
-            return AuthScreen();
+            return const AuthScreen();
           },
         );
       case homeScreen:
@@ -27,12 +24,6 @@ class AppRouter {
           },
         );
 
-      case testScreen:
-        return MaterialPageRoute(
-          builder: (_) {
-            return const TestScreen();
-          },
-        );
 
       case callScreen:
         List<dynamic> args = routeSettings.arguments as List<dynamic>;
