@@ -37,7 +37,7 @@
 
 ## Getting Started
 
-*Create a new firebase project and setup firestore
+*Create a new firebase project and setup firestore and enable email/password authentication
 
 *Copy FCM authorization key and past it on fcmKey var in constants.dart file
 
