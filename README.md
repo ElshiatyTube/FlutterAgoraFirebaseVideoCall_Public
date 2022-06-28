@@ -33,7 +33,6 @@
 
 ![App Screenshot](https://i.ibb.co/8KdjTF1/Untitled2.png)
 
-![App Screenshot](https://i.ibb.co/vjvMVTZ/agora-Github.png)
 
 ## Getting Started
 
