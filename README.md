@@ -14,7 +14,7 @@
 
 *Real-time handling for all call status (calling - accept- reject - cancel - busy - unAnswer - end)
 
-*Clean code and arch
+*Clean code
 
 *Ui=>Cubit=>Api data flow
 
