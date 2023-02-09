@@ -22,6 +22,12 @@
 
 *Fcm notification (handling incoming calls in terminated mode)
 
+*V2: *User connection status (presence) using firebase realtimeDB and cloud functions. https://github.com/ElshiatyTube/presenceFirestoreCloudFuncs
+
+*Live chat
+
+*Update some dependencies
+
 **Build token generator using nodejs:** https://www.youtube.com/watch?v=KcLypppA2IQ&ab_channel=Agora
 
 **Demo Video :** https://www.youtube.com/watch?v=Ond-VhB11h4
