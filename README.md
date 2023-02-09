@@ -23,7 +23,7 @@
 *Fcm notification (handling incoming calls in terminated mode)
 
 *V2:
-*User connection status (presence) using firebase realtimeDB and cloud functions
+*User connection status (presence) using firebase realtimeDB and cloud functions. https://github.com/ElshiatyTube/presenceFirestoreCloudFuncs
 
 *Live chat
 
