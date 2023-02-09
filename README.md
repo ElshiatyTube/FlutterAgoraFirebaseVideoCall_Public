@@ -4,7 +4,7 @@
 
 **Client:** Dart, Flutter
 
-*Server:** Firebase firestore, Google cloud functions
+**Server:** Firebase firestore, Google cloud functions
 
 ## Techniques:
 
