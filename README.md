@@ -4,7 +4,7 @@
 
 **Client:** Dart, Flutter
 
-**Server:** Firebase firestore, Google cloud functions
+*Server:** Firebase firestore, Google cloud functions
 
 ## Techniques:
 
@@ -23,9 +23,9 @@
 *Fcm notification (handling incoming calls in terminated mode)
 
 *V2:
- -User connection status (presence) using firebase realtimeDB and cloud functions
- -Live chat
- -Update some dependencies
+ *-User connection status (presence) using firebase realtimeDB and cloud functions
+ *-Live chat
+ *-Update some dependencies
 
 **Build token generator using nodejs:** https://www.youtube.com/watch?v=KcLypppA2IQ&ab_channel=Agora
 
