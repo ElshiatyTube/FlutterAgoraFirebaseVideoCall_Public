@@ -6,7 +6,7 @@
 
 **Server:** Firebase firestore, Google cloud functions
 
-## Techniques:
+## Techniques
 
 *BloC pattern with Cubit State management
 
